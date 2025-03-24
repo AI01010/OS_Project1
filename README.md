@@ -19,3 +19,9 @@ $ g++ logger.cpp -o logger -std=c++11
 run:
 $ ./driver logfile.txt
 
+"logfile.txt: --> fileName
+
+view results:
+$ cat logfile.txt
+    OR
+$ vi logfile.txt

@@ -1,3 +1,33 @@
+2025-03-24 13:01 [START] Logging Started.
+2025-03-24 13:01 [PASS] entered password.
+2025-03-24 13:01 [PASS] Password set.
+2025-03-24 13:01 [ENCRYPT] encrypting string.
+2025-03-24 13:01 [RESULT] Encrypted: hello -> oiwwc.
+2025-03-24 13:01 [HISTORY] history requested.
+2025-03-24 13:01 [RESULT] History displayed.
+2025-03-24 13:01 [QUIT] quit command received.
+2025-03-24 13:09 [START] Logging Started.
+2025-03-24 13:10 [PASS] entered password.
+2025-03-24 13:10 [PASS] Password set.
+2025-03-24 13:10 [ENCRYPT] encrypting string.
+2025-03-24 13:10 [RESULT] Encrypted: hello -> oiwwc.
+2025-03-24 13:10 [DECRYPT] decrypting string.
+2025-03-24 13:10 [RESULT] Decrypted: d -> w.
+2025-03-24 13:10 [QUIT] quit command received.
+2025-03-24 13:11 [START] Logging Started.
+2025-03-24 13:11 [PASS] entered password.
+2025-03-24 13:11 [PASS] Password set.
+2025-03-24 13:11 [ENCRYPT] encrypting string.
+2025-03-24 13:11 [RESULT] Encrypted: hello -> oiwwc.
+2025-03-24 13:11 [DECRYPT] decrypting string.
+2025-03-24 13:11 [RESULT] Decrypted: hello -> aaaaa.
+2025-03-24 15:12 [START] Logging Started.
+2025-03-24 15:12 [ERROR] Unknown command: lol
+2025-03-24 15:12 [PASS] entered password.
+2025-03-24 15:12 [PASS] Password set.
+2025-03-24 15:13 [ENCRYPT] encrypting string.
+2025-03-24 15:13 [RESULT] Encrypted: hello -> oiwwc.
+2025-03-24 15:13 [ENCRYPT] encrypting string.
 2025-03-24 15:13 [RESULT] Encrypted: hello -> oiwwc.
 2025-03-24 15:14 [QUIT] quit command received.
 2025-03-24 15:14 [START] Logging Started.
@@ -37,7 +67,7 @@
 2025-03-24 15:20 [PASS] Password set.
 2025-03-24 15:20 [ENCRYPT] encrypting string.
 2025-03-24 15:20 [ERROR] Invalid input format for encryption.
-2025-03-24 15:20 [ERROR] Unknown command: ^[[b
+2025-03-24 15:20 [ERROR] Unknown command:
 2025-03-24 15:20 [HISTORY] history requested.
 2025-03-24 15:20 [RESULT] History is empty.
 2025-03-24 15:20 [HISTORY] history requested.
