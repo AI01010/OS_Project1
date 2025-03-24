@@ -1,9 +1,9 @@
 # DEVLOG.md
-## 03.10.2025 06:55 CodingSession::BEGIN
+## 03.10.2025 18:55 CodingSession::BEGIN
 
 initial commmits
 
-## 03.10.2025 06:56 CodingSession::END
+## 03.10.2025 18:56 CodingSession::END
 
 NOTES: change to from Python to C++?
 
@@ -13,7 +13,7 @@ switch Python to C++
 
 ## 03.15.2025 11:51 CodingSession::END
 
-## 03.23.2025 04:56 CodingSession::BEGIN
+## 03.23.2025 16:56 CodingSession::BEGIN
 
 start work on logger, encryption, and driver programs
 added loger reading and writing
@@ -22,11 +22,11 @@ added log.txt
 added vigenere shifting calc
 test later on unix server
 
-## 03.23.2025 07:13 CodingSession::END
+## 03.23.2025 19:13 CodingSession::END
 
-NOTE: test on MobaXterm cslinux1.utdallas.edu server
+NOTES: test on MobaXterm cslinux1.utdallas.edu server
 
-## 03.23.2025 10:47 CodingSession::BEGIN
+## 03.23.2025 22:47 CodingSession::BEGIN
 
 continued work on logger, encryption, and driver programs
 logger.h and encryption.h header files not needed (removed extra files)
@@ -39,7 +39,7 @@ Note: wont run in VSCode
 
 ## 03.24.2025 01:57 CodingSession::END
 
-NOTE: switch to c? now that header files no longer needed?
+NOTES: switch to c? now that header files no longer needed?
 
 ## 03.24.2025 12:54 CodingSession::BEGIN
 
@@ -50,13 +50,14 @@ tests successful
 update readme
 stuck with .cpp
 
-## 03.24.2025 01:20 CodingSession::END
+## 03.24.2025 13:20 CodingSession::END
 
 NOTES: c doesnt requre -std=c++11, switch to avoid c++ dependencies?
 
-## 03.24.2025 03:10 CodingSession::BEGIN
+## 03.24.2025 15:10 CodingSession::BEGIN
 
 fix local history to include results, as well as user input
 
-## 03.24.2025 03:18 CodingSession::END
+## 03.24.2025 15:18 CodingSession::END
+
 
