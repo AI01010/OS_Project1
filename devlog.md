@@ -37,3 +37,17 @@ remembered to commit!
 Note: wont run in VSCode
 
 ## 03.24.2025 01:57 CodingSession::END
+
+NOTE: switch to c? now that header files no longer needed?
+
+## 03.24.2025 12:54 CodingSession::BEGIN
+
+fix menu error with 0.
+fix logger ouput format error
+run on cslinux1
+tests successful
+update readme
+stuck with .cpp
+
+## 03.24.2025 01:20 CodingSession::END
+

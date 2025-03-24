@@ -196,12 +196,12 @@ int main(int argc, char* argv[])
                 {
                     // Display history
                     cout << "\n--- History ---" << endl;
+                    cout << "0. Enter new string" << endl;
                     for (size_t i = 0; i < history.size(); ++i) 
                     {
                         cout << i + 1 << ". " << history[i] << endl;
                     }
-                    cout << "0. Enter new string" << endl;
-                    cout << "Select number: ";
+                    cout << "Select a number: ";
                     
                     string selection;
                     getline(cin, selection);
@@ -263,11 +263,11 @@ int main(int argc, char* argv[])
                 {
                     // Display history
                     cout << "\n--- History ---" << endl;
+                    cout << "0. Enter new string" << endl;
                     for (size_t i = 0; i < history.size(); ++i) 
                     {
                         cout << i + 1 << ". " << history[i] << endl;
                     }
-                    cout << "0. Enter new string" << endl;
                     cout << "Select number: ";
                     
                     string selection;
@@ -317,7 +317,7 @@ int main(int argc, char* argv[])
             if (response.substr(0, 6) == "RESULT") 
             {
                 string encryptedText = response.substr(7);  // Skip "RESULT "
-                history.push_back(encryptedText);  // Add encrypted result to history
+                //dont: history.push_back(encryptedText);  // Add encrypted result to history
                 logMessage(loggerIn[1], "RESULT", "Encrypted: " + inputString + " -> " + encryptedText+".");
             } 
             else 
@@ -342,11 +342,11 @@ int main(int argc, char* argv[])
                 {
                     // Display history
                     cout << "\n--- History ---" << endl;
+                    cout << "0. Enter new string" << endl;
                     for (size_t i = 0; i < history.size(); ++i) 
                     {
                         cout << i + 1 << ". " << history[i] << endl;
                     }
-                    cout << "0. Enter new string" << endl;
                     cout << "Select number: ";
                     
                     string selection;
@@ -396,7 +396,7 @@ int main(int argc, char* argv[])
             if (response.substr(0, 6) == "RESULT") 
             {
                 string decryptedText = response.substr(7);  // Skip "RESULT "
-                history.push_back(decryptedText);  // Add decrypted result to history
+                //dont: history.push_back(decryptedText);  // Add decrypted result to history
                 logMessage(loggerIn[1], "RESULT", "Decrypted: " + inputString + " -> " + decryptedText+".");
             } 
             else 
@@ -460,3 +460,4 @@ int main(int argc, char* argv[])
     return 0;
 }
 
+//driver.cpp
