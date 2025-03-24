@@ -317,7 +317,7 @@ int main(int argc, char* argv[])
             if (response.substr(0, 6) == "RESULT") 
             {
                 string encryptedText = response.substr(7);  // Skip "RESULT "
-                //dont: history.push_back(encryptedText);  // Add encrypted result to history
+                history.push_back(encryptedText);  // Add encrypted result to history
                 logMessage(loggerIn[1], "RESULT", "Encrypted: " + inputString + " -> " + encryptedText+".");
             } 
             else 
@@ -396,7 +396,7 @@ int main(int argc, char* argv[])
             if (response.substr(0, 6) == "RESULT") 
             {
                 string decryptedText = response.substr(7);  // Skip "RESULT "
-                //dont: history.push_back(decryptedText);  // Add decrypted result to history
+                history.push_back(decryptedText);  // Add decrypted result to history
                 logMessage(loggerIn[1], "RESULT", "Decrypted: " + inputString + " -> " + decryptedText+".");
             } 
             else 

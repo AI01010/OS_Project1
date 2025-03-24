@@ -1,15 +1,3 @@
-2025-03-24 13:01 [START] Logging Started.
-2025-03-24 13:01 [PASS] entered password.
-2025-03-24 13:01 [PASS] Password set.
-2025-03-24 13:01 [ENCRYPT] encrypting string.
-2025-03-24 13:01 [RESULT] Encrypted: hello -> oiwwc.
-2025-03-24 13:01 [HISTORY] history requested.
-2025-03-24 13:01 [RESULT] History displayed.
-2025-03-24 13:01 [QUIT] quit command received.
-2025-03-24 13:09 [START] Logging Started.
-2025-03-24 13:10 [PASS] entered password.
-2025-03-24 13:10 [PASS] Password set.
-2025-03-24 13:10 [ENCRYPT] encrypting string.
 2025-03-24 13:10 [RESULT] Encrypted: hello -> oiwwc.
 2025-03-24 13:10 [DECRYPT] decrypting string.
 2025-03-24 13:10 [RESULT] Decrypted: d -> w.
@@ -21,3 +9,37 @@
 2025-03-24 13:11 [RESULT] Encrypted: hello -> oiwwc.
 2025-03-24 13:11 [DECRYPT] decrypting string.
 2025-03-24 13:11 [RESULT] Decrypted: hello -> aaaaa.
+2025-03-24 15:12 [START] Logging Started.
+2025-03-24 15:12 [ERROR] Unknown command: lol
+2025-03-24 15:12 [PASS] entered password.
+2025-03-24 15:12 [PASS] Password set.
+2025-03-24 15:13 [ENCRYPT] encrypting string.
+2025-03-24 15:13 [RESULT] Encrypted: hello -> oiwwc.
+2025-03-24 15:13 [ENCRYPT] encrypting string.
+2025-03-24 15:13 [RESULT] Encrypted: hello -> oiwwc.
+2025-03-24 15:14 [QUIT] quit command received.
+2025-03-24 15:14 [START] Logging Started.
+2025-03-24 15:14 [PASS] entered password.
+2025-03-24 15:14 [PASS] Password set.
+2025-03-24 15:14 [ENCRYPT] encrypting string.
+2025-03-24 15:14 [RESULT] Encrypted: hello -> oiwwc.
+2025-03-24 15:15 [ENCRYPT] encrypting string.
+2025-03-24 15:15 [RESULT] Encrypted: lol -> ssw.
+2025-03-24 15:15 [HISTORY] history requested.
+2025-03-24 15:15 [RESULT] History displayed.
+2025-03-24 15:15 [DECRYPT] decrypting string.
+2025-03-24 15:15 [RESULT] Decrypted: ssw -> lol.
+2025-03-24 15:15 [DECRYPT] decrypting string.
+2025-03-24 15:15 [RESULT] Decrypted: lol -> eka.
+2025-03-24 15:15 [ENCRYPT] encrypting string.
+2025-03-24 15:15 [RESULT] Encrypted: lol -> ssw.
+2025-03-24 15:15 [PASS] entered password.
+2025-03-24 15:16 [PASS] Password set.
+2025-03-24 15:16 [HISTORY] history requested.
+2025-03-24 15:16 [RESULT] History displayed.
+2025-03-24 15:16 [PASS] entered password.
+2025-03-24 15:17 [PASS] Password set.
+2025-03-24 15:17 [HISTORY] history requested.
+2025-03-24 15:17 [RESULT] History displayed.
+2025-03-24 15:17 [ERROR] Unknown command: yooo
+2025-03-24 15:17 [QUIT] quit command received.

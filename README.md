@@ -19,5 +19,3 @@ $ g++ logger.cpp -o logger -std=c++11
 run:
 $ ./driver logfile.txt
 
-GITHUB: https://github.com/AI01010/OS_Project1
-

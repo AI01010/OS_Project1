@@ -1,3 +1,4 @@
+# DEVLOG.md
 ## 03.10.2025 06:55 CodingSession::BEGIN
 
 initial commmits
@@ -50,4 +51,12 @@ update readme
 stuck with .cpp
 
 ## 03.24.2025 01:20 CodingSession::END
+
+NOTES: c doesnt requre -std=c++11, switch to avoid c++ dependencies?
+
+## 03.24.2025 03:10 CodingSession::BEGIN
+
+fix local history to include results, as well as user input
+
+## 03.24.2025 03:18 CodingSession::END
 
