@@ -1,7 +1,7 @@
 # OS_Project1
 
 ## Operating Systems Project 1:
-encryption logger progam in c++
+encryption logger progam in c++ using vigenere
 
 ### To run:
 
